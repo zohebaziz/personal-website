@@ -1,7 +1,12 @@
+import NavBar from "../components/NavBar"
+
 // about page
 export default function Resume() {
 
     return (
-        <div>Resume</div>
+        <div>
+            <NavBar />
+            <div>Resume</div>
+        </div>
     )
 }
